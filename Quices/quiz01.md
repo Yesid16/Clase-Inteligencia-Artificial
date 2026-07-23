@@ -82,11 +82,19 @@ Después de las presentaciones, discutiremos preguntas como:
     agente y su implementación interna?
 
 ------------------------------------------------------------------------
-
 # Reto adicional
 
 Encuentre un Space que pueda clasificarse como:
 
 1.  **Totalmente observable, determinista y episódico.**
+UNESCO Language Translator
+https://huggingface.co/spaces/UNESCO/nllb
+
+Ya que tiene acceso a todo el texto que debe traducir, siempre traduce lo mismo a partir del mismo texto, cada traducción es independiente a la anterior
+
 
 2.  **Parcialmente observable, estocástico y secuencial.**
+https://huggingface.co/spaces/openai/whisper
+Whisper Large V3: Transcribe Audio
+
+Ya que puede no identificar todas las palabras, puede haber ruido o sonidos inesperados, cambia segun el contexto del audio, tiene en cuenta las palabras anteriores.
