@@ -20,13 +20,20 @@ de que crea estas de una forma realista y vívida.
 
   Elemento          Respuesta
   ----------------- ----------------------------------------------------
-  **Performance**   ¿Qué significa que el agente haga bien su trabajo?
+  **Performance**   ¿Qué significa que el agente haga bien su trabajo? 
+  
   Cuando genera o no la imagen, si se ajusta a lo que se solicita en el prompt, si es realista o genérica ya que este feature es lo que lo diferencia.
+  
   **Environment**   ¿Con qué interactúa el agente?
+  
   Pantalla, palabras, colores, imagen
+  
   **Actuators**     ¿Qué acciones produce?
+  
     Pintar pixeles, generar imagen
+    
   **Sensors**       ¿Qué información recibe como entrada?
+  
   Palabras, prompt, contexto de imagen a generar
 
 ------------------------------------------------------------------------
