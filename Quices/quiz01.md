@@ -30,7 +30,7 @@ de que crea estas de una forma realista y vívida.
   
   **Actuators**     ¿Qué acciones produce?
   
-    Pintar pixeles, generar imagen
+   Pintar pixeles, generar imagen
     
   **Sensors**       ¿Qué información recibe como entrada?
   
