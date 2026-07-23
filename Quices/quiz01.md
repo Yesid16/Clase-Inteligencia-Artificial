@@ -44,11 +44,16 @@ Complete la siguiente tabla y justifique brevemente cada respuesta.
 
   Propiedad      Clasificación     Justificación
   -------------- ----------------- ---------------
-  Observable     Parcial, ya que si bien tiene acceso al prompt, hay muchas características que desconoce  
-  Determinista   No, porque no se puede determinar si generará la imagen de acuerdo al prompt o no         
-  Episódico      No, ya que no genera imagenes secuencialmente, solo genera uno basada en un input          
+  Observable     Parcial, ya que si bien tiene acceso al prompt, hay muchas características que desconoce
+  
+  Determinista   No, porque no se puede determinar si generará la imagen de acuerdo al prompt o no 
+  
+  Episódico      No, ya que no genera imagenes secuencialmente, solo genera uno basada en un input  
+  
   Estático       Sí, porque después de generar la imagen no la altera ni hace cambios en esta
-  Discreto       Sí, cada generación funciona de forma separada mediante una entrada y salida, no cambian los valores continuamente          
+  
+  Discreto       Sí, cada generación funciona de forma separada mediante una entrada y salida, no cambian los valores continuamente   
+  
   Conocido       Sí, conoce cómo hizo la imagen ya que tiene contexto de cada pixel que va pintando y cómo forma el resultado      
 
 ------------------------------------------------------------------------
@@ -87,14 +92,18 @@ Después de las presentaciones, discutiremos preguntas como:
 Encuentre un Space que pueda clasificarse como:
 
 1.  **Totalmente observable, determinista y episódico.**
+
 UNESCO Language Translator
+
 https://huggingface.co/spaces/UNESCO/nllb
 
 Ya que tiene acceso a todo el texto que debe traducir, siempre traduce lo mismo a partir del mismo texto, cada traducción es independiente a la anterior
 
 
 2.  **Parcialmente observable, estocástico y secuencial.**
+   
 https://huggingface.co/spaces/openai/whisper
+
 Whisper Large V3: Transcribe Audio
 
 Ya que puede no identificar todas las palabras, puede haber ruido o sonidos inesperados, cambia segun el contexto del audio, tiene en cuenta las palabras anteriores.
